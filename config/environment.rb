@@ -286,7 +286,7 @@ class MusicLibraryController
      song = Song.sorted[input-1]
      puts "Playing #{song.name} by #{song.artist.name}"
    end
-  #  binding.pry
+   binding.pry
   end
 
 end
