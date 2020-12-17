@@ -285,8 +285,6 @@ class MusicLibraryController
    if input.between?(1, Song.all.length)
      song = Song.sorted[input-1]
      puts "Playing #{song.name} by #{song.artist.name}"
-   else
-     puts "Playing #{song.name} by #{song.artist.name}"
    end
   #  binding.pry
   end
